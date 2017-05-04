@@ -1,10 +1,10 @@
-import { UdemyAngularPage } from './app.po';
+import { NewCliPage } from './app.po';
 
-describe('udemy-angular App', () => {
-  let page: UdemyAngularPage;
+describe('new-cli App', () => {
+  let page: NewCliPage;
 
   beforeEach(() => {
-    page = new UdemyAngularPage();
+    page = new NewCliPage();
   });
 
   it('should display message saying app works', () => {
